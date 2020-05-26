@@ -17,6 +17,13 @@ public class ProfilePOJO extends LibGlobal {
 	@FindBy(xpath = "//a[@href='/student/my-profile/profile']")
 	private WebElement editbtn;
 
+	@FindBy(xpath = "(//span[@class='MuiTouchRipple-root'])[11]")
+	private WebElement editbtn1;
+
+	public WebElement getEditbtn1() {
+		return editbtn1;
+	}
+
 	public WebElement getEditbtn() {
 		return editbtn;
 	}

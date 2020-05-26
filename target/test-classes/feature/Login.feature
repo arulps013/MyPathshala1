@@ -5,3 +5,4 @@ Feature: validating login functionality
     When user enters userName and passWord
     And user clicks login button and verify the message
     And user clicks my courses button
+    And user clicks quiz button
